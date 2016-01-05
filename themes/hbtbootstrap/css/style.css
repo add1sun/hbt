@@ -1,0 +1,76 @@
+.navbar-brand {
+  font-size: 4em;
+  padding: 10px;
+  line-height: 2;
+  height: 100px;
+}
+
+.episode-image {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.date {
+  padding-bottom: 10px;
+}
+
+.episode-teaser-title {
+  margin-top: 0;
+}
+
+#player {
+}
+ 
+#player iframe {
+  height: 50px;
+  width: 70%; 
+  border: none;
+}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 1199px) {
+  #player iframe {
+    width: 40%;
+  }
+}
+ 
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {
+  #player iframe {
+    width: 90%;
+  }
+}
+
+.episode-drink {
+  clear: both;
+}
+
+#block-hbtbootstrap-views-block-episode-list-block-1 .views-field-title {
+  text-align: center;
+}
+
+.view-id-episode_list .views-row {
+  margin-bottom: 30px;
+}
+
+#block-medialinks {
+  padding-left: 5px;
+}
+
+a.fa-stack {
+  width: 1.7em;
+  vertical-align: -10px;
+}
+
+/* Make Views More link look like a Yeti Primary button */
+.more-link a {
+  padding: 8px 12px;
+  color: #ffffff;
+  background-color: #008cba;
+  border-color: #0079a1;
+}
+
+/* Hack to remove feed link until I can get Views to let me edit it away in the UI.*/
+.feed-icons {
+  display: none;
+}
